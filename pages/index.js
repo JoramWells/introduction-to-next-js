@@ -1,4 +1,5 @@
 import Head from "next/Head";
+import Avatar from "../components/Avatar";
 export default function Home() {
   return (
     <div>
@@ -18,7 +19,8 @@ export default function Home() {
           <p className="link">Images</p>
         </div>
         {/* icon */}
-        {/* avatar */}
+        <Avatar className="rounded-full h-10 cursor-pointer transition duration-150 transform  hover:scale-150" url="https://yt3.ggpht.com/yti/ANoDKi6Q9l1vIxuf7fPiHUtE3wIwe7mUxG-RUlmaJw=s88-c-k-c0x00ffffff-no-rj-mo" />
+        {/* Avatar */}
       </header>
     </div>
   );
